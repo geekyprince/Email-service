@@ -11,7 +11,7 @@ then there are two options
 either do a post request using postman or django browser console as follows:
 
 method: Post
-url:  http://127.0.0.1:8000/MailApi/mail/
+url:  http://localhost/MailApi/mail/
 body: 
 {
     "email_ids": ["prince01@gmail.com", "skit@gmail.com"],
