@@ -14,9 +14,9 @@ method: Post
 url:  http://127.0.0.1:8000/MailApi/mail/
 body: 
 {
-    "email_ids": ["arch.prince01@gmail.com", "cdsskit99@gmail.com"],
+    "email_ids": ["prince01@gmail.com", "skit@gmail.com"],
     "subject": "hey there Prince this side",
-    "content": "welcome to send grid"
+    "content": "welcome to Email service by mailjet and sendgrid"
 }
 
 #this is a sample example for body param which need to be in json format
