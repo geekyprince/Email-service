@@ -1,11 +1,9 @@
 install all dependencies using requirement.txt
+Modify .env file with your api keys for sendgrid and mailjet.
 Then
 goto project directory and run commands
 python manage.py migrate
 python manage.py runserver
-
-Now,
-Modify .env file with your api keys for sendgrid and mailjet.
 
 then there are two options
 either do a post request using postman or django browser console as follows:
