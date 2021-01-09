@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '3a5_-au-e5n7b00s+1(rbq)@qk25m(l03x!*okxirm7a!)jp+h'
+SECRET_KEY = "Your django secret key"
 
 #Create .env file consisting of these Key value pairs
 Sendgrid_API_KEY = config('Your_Sendgrid_API_KEY')
