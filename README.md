@@ -1,2 +1,24 @@
-# Email service
- Integration of django restframework with mailjet and sendgrid
+install all dependencies using requirement.txt
+Then
+goto project directory and run commands
+python manage.py migrate
+python manage.py runserver
+
+Now,
+Modify .env file with your api keys for sendgrid and mailjet.
+
+then there are two options
+either do a post request using postman or django browser console as follows:
+
+method: Post
+url:  http://127.0.0.1:8000/MailApi/mail/
+body: 
+{
+    "email_ids": ["arch.prince01@gmail.com", "cdsskit99@gmail.com"],
+    "subject": "hey there Prince this side",
+    "content": "welcome to send grid"
+}
+
+#this is a sample example for body param which need to be in json format
+
+
